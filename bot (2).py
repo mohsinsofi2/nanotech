@@ -10,9 +10,9 @@ import re
 from datetime import datetime
 
 # Bot Configuration
-API_ID = 21124241
-API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
-BOT_TOKEN = '7840159565:-zN5S6Bc' # Keep your token secret
+API_ID = 27959876
+API_HASH = '75c673cee62f34b0f51a49b52a53e622'
+BOT_TOKEN = '7327892485:AAEaamIqqchffOWZlPvgh-XcRBOYVRyYc04' # Keep your token secret
 
 # File paths
 PREMIUM_FILE = 'premium.txt'
