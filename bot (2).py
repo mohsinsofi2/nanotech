@@ -140,7 +140,7 @@ async def check_card(session, card, site):
             return {'status': 'Invalid Format', 'message': 'Invalid card format', 'card': card}
         
         # API endpoint
-        url = f'https://kamalxd.com/web.php?cc={card}&site={site}'
+        url = f'https://autoshopify.stormx.pw/index.php?cc={card}&site={site}'
         
         async with session.get(url, timeout=aiohttp.ClientTimeout(total=90)) as response:
             if response.status != 200:
